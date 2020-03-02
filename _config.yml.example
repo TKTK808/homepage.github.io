@@ -1,17 +1,20 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Archives:
 
 
 # Favicon
 favicon:
+
 
 # Hero - Please specify width and height for structured data
 hero:
   url:
   width:
   height:
+  size:
+  position:
 
 
 # Profile
@@ -29,7 +32,7 @@ profile:
 
 # Site Verification
 site_verification:
-  enable: true
+  enable:
   google:
   naver:
   bing:
@@ -45,8 +48,8 @@ analytics:
 webfonts:
   uses: ['Noto Sans KR', 'Font Awesome']
   extraFonts:
-  #  - family:
-  #    url:
+  #  - family: 'Hack'
+  #    url: '/fonts/hack/hack.css'
 
 
 # Extenreal Links
@@ -61,8 +64,3 @@ liveRe:
 
 disqus:
   shortname:
-
-deploy:
-  type: git
-  repo: https://github.com/TKTK808/homepage.github.io.git
-  bruch: master
