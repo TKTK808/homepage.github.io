@@ -2,7 +2,7 @@
 
 ## Language
 
-[Korean](./documents/ko)
+[Japanese](./documents/ko)
 
 ## Demo
 
