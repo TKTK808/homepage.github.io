@@ -2,7 +2,7 @@
 # The object key is the label and the value is the path.
 menu:
   Home: /
-  🗂️Archives: /archives
+  Archives: /archives
   Hexo: https://hexo.io/
 
 # The icons at the bottom of the page.
