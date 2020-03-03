@@ -1,68 +1,47 @@
-# Header
+﻿# Menu
+# The object key is the label and the value is the path.
 menu:
   Home: /
-  Archives: /archives
+  🗂️Archives: /archives
+  Hexo: https://hexo.io/
 
+# The icons at the bottom of the page.
+# The class value comes from font awesome.
+#  Example: if the html code for the icon is <i class="fas fa-home"></i> the value for class will be fas fa-home. 
+footer_icons:
+  'Hexo.io':
+    url: 'https://hexo.io/'
+    class: 'fas fa-home'
+  '@hexojs':
+    url: 'https://twitter.com/hexojs'
+    class: 'fab fa-twitter'
+  'Report issue':
+    url: 'https://github.com/RandomAdversary/Gradient/issues'
+    class: 'fas fa-bug'
 
-# Favicon
-favicon:
+# This is reserved for meta tags.
+# List of supported items:
+# 1. Twitter card image. See: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary.html
+# 2. Open graph image. See: http://ogp.me/
+meta: 
+  twitter:
+    featured_image: img/default.jpg
+  open_graph: #Facebook
+    featured_image: img/default.jpg
 
-# Hero - Please specify width and height for structured data
-hero:
-  url:
-  width:
-  height:
+# The sidebar is reserved for a twitter feed and blocks of text/html.
+sidebar:
+  twitter:
+    enabled: true
+    username: 'hexojs'
+    height: 800
+  tldr: 
+    - block1: 
+      title: 'TL;DR'
+      content: 'Yet another hexo theme.'
+    - block2: 
+      title: 'TL;DR 2'
+      content: 'No, not another one :/'
 
-
-# Profile
-profile:
-  gravatar:
-  social:
-    github:
-    facebook:
-    linkedin:
-    instagram:
-    twitter:
-    flickr:
-    rss:
-
-
-# Site Verification
-site_verification:
-  enable: true
-  google:
-  naver:
-  bing:
-
-
-# Analytics
-analytics:
-  google:
-  naver:
-
-
-# web fonts
-webfonts:
-  uses: ['Noto Sans KR', 'Font Awesome']
-  extraFonts:
-  #  - family:
-  #    url:
-
-
-# Extenreal Links
-links:
-  #  - name:
-  #    url:
-
-
-# Comments
-liveRe:
-  uid:
-
-disqus:
-  shortname:
-
-deploy:
-  type: git
-  repo: https://github.com/TKTK808/homepage.github.io.git
-  bruch: master
+# If featured_image is missing from a post, this one will be used.
+featured_image: ./img/default.jpg
